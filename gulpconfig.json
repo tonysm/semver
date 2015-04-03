@@ -15,8 +15,7 @@
     "public/app/sass/**/*.scss"
   ],
   "scripts": [
-    "public/components/jquery/dist/jquery.js",
-    "public/components/angular/angular.js",
-    "public/app/js/**/*.js"
+    "public/app/react/components/**/*.js",
+    "public/app/react/app.js"
   ]
 }

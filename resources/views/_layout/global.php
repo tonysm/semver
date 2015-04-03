@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/builds/css/styles.css" />
 </head>
-<body ng-app="semver" ng-controller="AppController">
+<body>
     <main class="container" ng-cloak>
         <?php $this->insert('_partials/header') ?>
         <?= $this->section('body') ?>
@@ -18,7 +18,10 @@
     <?php $this->insert('_partials/footer') ?>
     <?php $this->insert('_partials/ga') ?>
 
-    <script src="/builds/js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://fb.me/react-0.13.1.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.1.js"></script>
+    <script type="text/jsx" src="/builds/js/scripts.js"></script>
 </body>
 </html>
 <?php
